@@ -1,0 +1,6 @@
+# A book has a title and an author
+type Query {
+    hello: String!
+    helloWithName(name: String): String!
+    peopleNumber: Int!
+}
